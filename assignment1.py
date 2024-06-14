@@ -10,7 +10,7 @@ def pyramid(n):
     for i in range(n):
         print(' ' * (n - i - 1) + '*' * (2 * i + 1))
 
-n = 5  # You can change this value for a different size
+n = 5  
 
 print("Lower Triangular Pattern:")
 lower_triangular(n)
